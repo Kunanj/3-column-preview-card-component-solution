@@ -27,7 +27,7 @@ body{
     flex-direction: row;
     width: 80%;
 
-    margin: 7rem auto;
+    margin: 4rem auto;
 }
 
 .inner-container{
@@ -60,6 +60,7 @@ body{
     color: hsl(0, 0%, 95%);
     font-size: 7ch;
     font-weight: 400;
+    margin-bottom: 0px ;
 }
 
 .paragraph{
@@ -69,13 +70,15 @@ body{
     line-height: 2rem;
     font-weight: 400;
     flex-wrap: nowrap;
+
+    /* padding: 0 20px 0 0; */
 }
 
 .btn{
     color: hsl(0, 0%, 95%);
 
     padding: 10px 30px;
-    margin: 6rem auto 1rem auto;
+    margin: 5rem auto 0 auto;
 
     border: 2px solid;
     border-radius: 25px;
